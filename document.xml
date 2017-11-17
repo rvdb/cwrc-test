@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="http://cwrc.ca/templates/css/tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:w="http://cwrctc.artsrn.ualberta.ca/#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cw="http://cwrc.ca/ns/cw#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:cnt="http://www.w3.org/2011/content#">
+<rdf:Description rdf:about="http://208.75.74.217/editor/documents/null">
+	<cw:mode>0</cw:mode>
+	<cw:allowOverlap>false</cw:allowOverlap>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/b66839f7-f1a6-46c2-8589-6a2abe5d86fa">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/20d358b0-d5ba-4541-9a05-f079413346f5"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://dbpedia.org/resource/Aldous_Huxley"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/c1320fe3-2a46-42d7-b6d2-97c6c3b68b64"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2017-11-17T15:40:36.679Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2017-11-17T15:40:36.679Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#tagging"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#identifying"/>
+	<cw:hasCertainty xmlns:cw="http://cwrc.ca/ns/cw#" rdf:resource="http://cwrc.ca/ns/cw#definite"/>
+	<cw:cwrcInfo xmlns:cw="http://cwrc.ca/ns/cw#">{"nameType":"person","id":"http://dbpedia.org/resource/Aldous_Huxley","uri":"http://dbpedia.org/resource/Aldous_Huxley","name":"Aldous Huxley","repository":"dbpedia","originalQueryString":"text","description":"Aldous Leonard Huxley (26 July 1894 – 22 November 1963) was an English writer and one of the most prominent members of the famous Huxley family. Best known for his novels including Brave New World and a wide-ranging output of essays, Huxley also edited the magazine Oxford Poetry, and published short stories, poetry, travel writing, film stories and scripts. Huxley spent the later part of his life in the United States, living in Los Angeles from 1937 until his death."}</cw:cwrcInfo>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"ref":"http://dbpedia.org/resource/Aldous_Huxley","type":"fictional","cert":"definite"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://dbpedia.org/resource/Aldous_Huxley">
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/20d358b0-d5ba-4541-9a05-f079413346f5">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/9f45274b-d095-4f9a-9841-6a635d6d4eb7"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/b5d77550-c6d1-4bbc-851e-93b610e1809d"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/b5d77550-c6d1-4bbc-851e-93b610e1809d">
+	<rdf:value>xpointer(//persName[@annotationId="ent_1133"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/annotation/f3fc9221-dd85-489d-8b40-916ae968a1b4">
+	<oa:hasTarget xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/target/50960a42-3c6c-47e1-a1f7-5fc4c5960a73"/>
+	<oa:hasBody xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/correction/ea69c50f-ec79-491b-9314-5c408daf2eca"/>
+	<oa:annotatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/user/33ad4ae3-3836-4770-9240-3d48621720da"/>
+	<oa:annotatedAt xmlns:oa="http://www.w3.org/ns/oa#">2017-11-17T15:40:36.686Z</oa:annotatedAt>
+	<oa:serializedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource=""/>
+	<oa:serializedAt xmlns:oa="http://www.w3.org/ns/oa#">2017-11-17T15:40:36.686Z</oa:serializedAt>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#Annotation"/>
+	<oa:motivatedBy xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://www.w3.org/ns/oa#editing"/>
+	<cw:cwrcAttributes xmlns:cw="http://cwrc.ca/ns/cw#">{"sicText":"haha","corrText":"hihi"}</cw:cwrcAttributes>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/correction/ea69c50f-ec79-491b-9314-5c408daf2eca"><cnt:chars xmlns:cnt="http://www.w3.org/2011/content#">hihi</cnt:chars>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SemanticTag"/>
+	<rdf:type rdf:resource="http://www.w3.org/2011/content#ContentAsText"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/target/50960a42-3c6c-47e1-a1f7-5fc4c5960a73">
+	<oa:hasSource xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/doc/3485f1b5-0583-4c4f-9f6b-85f045b159e1"/>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#SpecificResource"/>
+	<oa:hasSelector xmlns:oa="http://www.w3.org/ns/oa#" rdf:resource="http://id.cwrc.ca/selector/6debb097-7fe8-4750-92a7-a87779dc30b2"/>
+</rdf:Description>
+<rdf:Description xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:about="http://id.cwrc.ca/selector/6debb097-7fe8-4750-92a7-a87779dc30b2">
+	<rdf:value>xpointer(//choice[@annotationId="ent_1136"])</rdf:value>
+	<rdf:type rdf:resource="http://www.w3.org/ns/oa#FragmentSelector"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://id.cwrc.ca/annotation/f3fc9221-dd85-489d-8b40-916ae968a1b4" cw:external="false">
+	<cw:isAssociatedWith cw:text="is associated with" cw:external="false">
+		<rdf:Description rdf:about="http://id.cwrc.ca/annotation/b66839f7-f1a6-46c2-8589-6a2abe5d86fa" cw:external="false"/>
+	</cw:isAssociatedWith>
+</rdf:Description>
+</rdf:RDF>
+ <teiHeader> <fileDesc> <titleStmt> <title>Sample Document Title</title> </titleStmt> <publicationStmt> <p/> </publicationStmt> <sourceDesc sameAs="http://www.cwrc.ca"> <p>Created from original research by members of CWRC/CSÉC unless otherwise noted.</p> </sourceDesc> </fileDesc> <encodingDesc><appInfo><application version="1.0" ident="CWRC-GitWriter-web-app" notAfter="2017-11-17T15:33:53.075Z"><label>CWRC-GitWriter-web-app</label></application></appInfo></encodingDesc></teiHeader> <text> <body> <div><p>This is <persName annotationId="ent_1133" ref="http://dbpedia.org/resource/Aldous_Huxley" type="fictional" cert="definite">text</persName>, wha<add>t's next</add>?</p><p/><p>Blabbla <choice annotationId="ent_1136" sicText="haha" corrText="hihi"><sic annotationId="ent_1136">haha</sic><corr annotationId="ent_1136">hihi</corr></choice> <del>hoho</del></p></div> </body> </text> </TEI>
